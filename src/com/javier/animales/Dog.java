@@ -1,3 +1,7 @@
+package com.javier.animales;
+
+import com.javier.animales.Animals;
+
 public class Dog implements Animals {
     private String name;
     private Integer age;

@@ -1,4 +1,8 @@
-public class Horse implements Animals{
+package com.javier.animales;
+
+import com.javier.animales.Animals;
+
+public class Horse implements Animals {
     private String name;
     private Integer age;
 

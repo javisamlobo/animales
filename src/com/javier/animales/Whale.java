@@ -1,4 +1,8 @@
-public class Whale implements Animals{
+package com.javier.animales;
+
+import com.javier.animales.Animals;
+
+public class Whale implements Animals {
     private String name;
     private Integer age;
 
@@ -12,11 +16,11 @@ public class Whale implements Animals{
 
     @Override
     public String getName() {
-        return name;
+        return this.name;
     }
 
     @Override
     public Integer getAge() {
-        return age;
+        return this.age;
     }
 }

@@ -1,5 +1,16 @@
+import com.javier.animales.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Dog dog = new Dog();
+        dog.setName("Perrete");
+        dog.setAge(15);
+
+        animalPrinter.printAnimal(dog);
+
+
+
+
     }
 }
